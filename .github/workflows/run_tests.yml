@@ -17,7 +17,7 @@ jobs:
      name: Tests
      steps: 
         - name: copy source code
-        - run: actions/checkout@v4
+        - uses: actions/checkout@v4
         - name: set up python env
         - uses: actions/setup-python@v5
           with:

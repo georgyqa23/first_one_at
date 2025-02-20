@@ -13,7 +13,7 @@ on:
            - all
 jobs:
    runs-tests:
-     runs-on: ubuntu-latest
+     runs-on: windows
      name: Tests
      steps: 
         - name: copy source code
